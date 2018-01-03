@@ -1,5 +1,6 @@
 package com.hero.fullpvp.listeners;
 
+import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.server.ServerListPingEvent;
 
@@ -16,6 +17,7 @@ public class MOTD implements Listener
     /**
      * Evento que escolhe uma motd quando o servidor aparece na lista de servidores.
      */
+    @EventHandler
     public void pingList(ServerListPingEvent e)
     {
         e.setMotd(motds[new Random().nextInt(motds.length)]);
