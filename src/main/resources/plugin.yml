@@ -1,0 +1,5 @@
+name: Hero-FullPVP
+version: 1.0.0-SNAPSHOT
+description: Nuclero do servidor de FullPVP.
+author: Katho
+main: com.hero.fullpvp.FullPVP
