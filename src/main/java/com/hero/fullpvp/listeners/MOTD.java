@@ -10,8 +10,8 @@ public class MOTD implements Listener
 {
 
     private final String[] motds = {
-            "Seja bem vindo ao nosso servidor",
-            "O melhor fullpvp de todos"
+            "§e§lHERO FULLPVP: §8Se junte e monte seu império!\n§7Se divirta o maximo com nosso sistema de economia exclusivo!",
+            "§e§lHERO FULLPVP: §8Compre VIP para ajudar o servidor!\n§7Entre na arena e veja os inimigos cairem sobre seus pés!!",
     };
 
     /**
