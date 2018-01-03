@@ -1,5 +1,9 @@
 package com.hero.fullpvp;
 
+import com.hero.fullpvp.listeners.MOTD;
+import com.hero.fullpvp.listeners.WeatherRemove;
+import org.bukkit.Bukkit;
+import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.File;
@@ -42,7 +46,9 @@ public class FullPVP extends JavaPlugin
      **/
     public void registerListeners()
     {
-        // TODO
+        PluginManager pm = Bukkit.getPluginManager();
+        pm.registerEvents(new MOTD(), this);
+        pm.registerEvents(new WeatherRemove(), this);
     }
 
     /**
